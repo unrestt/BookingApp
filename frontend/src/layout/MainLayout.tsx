@@ -1,8 +1,11 @@
+import SearchForm from "../features/hotels/components/SearchForm"
 
 
 const MainLayout = () => {
   return (
-    <div>MainLayout</div>
+    <>
+      <SearchForm/>
+    </>
   )
 }
 
